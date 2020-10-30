@@ -18,3 +18,109 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+.header {
+  background-color: black;
+}
+
+.footer {
+  background-color: lightgray;
+}
+
+.header-links {
+  display: flex;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-link {
+  float: left;
+  color: white;
+  width: 120px;
+  text-align: center;
+  margin: 10px 0;
+  text-decoration: none;
+}
+
+.content {
+  width: 1200px;
+  height: 1000px;
+  margin: 10px auto;
+  position: relative;
+}
+
+.content-left {
+  float: left;
+  margin: 0 10px;
+}
+
+.about {
+  width: 200px;
+  background-color: lightgray;
+}
+
+p {
+  padding: 5px;
+}
+.archives {
+  width: 200px;
+}
+
+.archives a {
+  display: block;
+}
+h1 {
+  padding: 5px;
+}
+
+.article {
+  width: 310px;
+  border: 1px lightgray solid;
+  float: left;
+  padding: 5px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer p {
+  margin: 0;
+}
+
+.view-detial {
+  text-decoration-line: none;
+  margin: 10px;
+}
+
+.article-img {
+  background-color: gray;
+  width: 300px;
+  height: 180px;
+}
+
+.article-left {
+  float: left;
+  width: 320px;
+}
+
+.content-right {
+  width: 250px;
+  background-color: lightgray;
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 10px;
+}
+.content-right-btn {
+  width: 200px;
+  height: 40px;
+  background-color: blue;
+  font-size: 18px;
+  border: none;
+  color: white;
+}
