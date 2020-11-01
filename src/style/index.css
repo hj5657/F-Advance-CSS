@@ -64,10 +64,13 @@ h1 {
 .article {
   width: 310px;
   border: 1px lightgray solid;
-  float: left;
   padding: 5px;
+  align-self: flex-start;
 }
-
+.content-center {
+  display: flex;
+  justify-content: space-between;
+}
 .footer {
   text-align: center;
   padding: 10px 0;
