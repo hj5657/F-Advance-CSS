@@ -29,16 +29,11 @@ ul {
 
 .header-links {
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
+  justify-content: space-evenly;
 }
 
 .header-link {
-  float: left;
   color: white;
-  width: 120px;
-  text-align: center;
-  margin: 10px 0;
   text-decoration: none;
 }
 
