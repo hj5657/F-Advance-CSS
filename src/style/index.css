@@ -30,6 +30,7 @@ ul {
 .header-links {
   display: flex;
   justify-content: space-evenly;
+  padding: 10px 0;
 }
 
 .header-link {
